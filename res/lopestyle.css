@@ -1,0 +1,189 @@
+/* Lo principal que debe tener la pagina */
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat", "sans-serif";
+    font-size: 0.99rem;
+    font-weight: 600;
+}
+
+main{
+    padding-top: 70px;
+}
+
+.nav{
+    border-bottom: 3px solid;
+    padding: 3px;
+    display: inline-block;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+
+body{
+    background-color: whitesmoke;
+}
+
+nav ul li a:hover {
+    color: #b8d1fa;
+}
+
+.cuadrado {
+    background-color: white;
+    padding: 5px;
+    border-radius: 25%;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: #173f73;
+    color: #b8d1fa;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+li {
+    display: inline-block;
+    padding: 7px;
+    margin-right: 20px;
+}
+
+.animacion{
+    transition: all 0.3s cubic-bezier(0.88, 0.05, 0.25, 1);
+}
+
+.animacion:hover{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+footer p {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-bar {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #0455c0;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    list-style: none;
+    padding: 10px;
+    margin: 0;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu li {
+    margin-top: 5px;
+}
+
+/* Paleta de Colores */
+.blanco{
+    color: #b8d1fa;
+}
+.celeste{
+    color: #0476d9;
+}
+.azuloscuro{
+    color: #173f73;
+}
+.negro{
+    color: #011126;
+}
+.azul{
+    color: #0455c0;
+}
+/* Tipos de titulos (8 tipos) */
+.t1{
+    margin-top: 4rem;
+    border-bottom: 5px solid;
+    border-left: 5px solid;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.t2{
+    margin-top: 4rem;
+    border-bottom: 5px solid;
+    border-right: 5px solid;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.t3{
+    margin-top: 4rem;
+    border-bottom: 5px dashed;
+    padding: 5px;
+    display: inline-block;
+}
+.t4{
+    margin-top: 4rem;
+    border-bottom: 5px solid;
+    padding: 5px;
+    display: inline-block;
+}
+.t5{
+    margin-top: 4rem;
+    border-left: 5px solid;
+    border-right: 5px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+.t6{
+    margin-top: 4rem;
+    border-left: 5px solid;
+    padding-left: 5px;
+    padding: 3px;
+    display: inline-block;
+}
+.t7{
+    margin-top: 4rem;
+    border: 3px solid;
+    padding: 10px;
+    display: inline-block;
+}
+.t8{
+    margin-top: 4rem;
+    border-bottom: 5px solid;
+    border-top: 5px solid;
+    padding: 5px;
+    display: inline-block;
+}
+/* Color de Bordes (Colocarlos como un ID)*/
+#ba{
+    border-color: #0455c0;
+}
+#bc{
+    border-color: #0476d9;
+}
+#bb{
+    border-color: #b8d1fa;
+}
+#bao{
+    border-color: #173f73;
+}
+#bn{
+    border-color: #011126;
+}
+/* 
